@@ -144,6 +144,11 @@ def user_reviews():
     """Renders the user reviews page."""
     return render_template('user_reviews.html')
 
+@app.route('/gallery')
+def galllery();
+    """Render the gallery page"""
+    return render_template('gallery.html')
+
 @app.route('/photographer_categories')
 def photographer_categories():
     """Renders the photographer categories page."""
